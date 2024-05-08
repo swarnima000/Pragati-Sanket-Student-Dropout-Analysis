@@ -46,4 +46,3 @@ The Random Forest Classifier performed the best with an accuracy of 81% and an F
 
 ## Conclusion
 The project successfully predicted student dropout using machine learning. The Random Forest Classifier showed the best performance among the models tested with 81% accuracy.
-```
