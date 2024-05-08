@@ -1,10 +1,10 @@
 # Student Dropout Prediction
 
 ## Overview
-This project aims to predict student dropout using machine learning techniques. It involves data analysis, preprocessing, feature selection, model training, and evaluation. The dataset contains information about students, including demographics, academic performance, and other relevant factors.
+This project aims to predict student dropout using machine learning techniques, involving data analysis, preprocessing, feature selection, model training, and evaluation. The dataset contains information about students, including demographics, academic performance, and other relevant factors. The code uses Streamlit to create a web interface for the dropout prediction model, loading a pre-trained Random Forest Classifier model and a Label Encoder for preprocessing categorical variables. Users can input student details and select options for categorical variables, with the model predicting whether the student is likely to drop out or not based on the input.
 
 ## Getting Started
-To get started with the project, you'll need Python and the following libraries installed:
+To get started with the project, you'll need Python, Streamlit and the following libraries installed:
 - pandas
 - numpy
 - matplotlib
@@ -20,10 +20,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboos
 ```
 
 ## Usage
-1. Clone the repository:
-```bash
-git clone https://github.com/your_username/student-dropout-prediction.git
-```
+1. Clone the repository
 
 2. Navigate to the project directory:
 ```bash
